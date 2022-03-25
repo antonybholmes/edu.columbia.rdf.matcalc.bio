@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+  <setting name="deseq2.r.script.path" value="res/modules/deseq2/scripts/r/deseq2.r" />
+  <setting name="deseq2.r.interpreter" value="Rscript" />
+
+  <setting name="deseq2.plot.xlabel" value="Category" />
+  <setting name="deseq2.plot.ylabel" value="Value" />
+  
+  <setting name="deseq2.plot.mode" value="web" />
+  
+
+
+	<setting name="deseq2.help.type" value="web" />
+	<setting name="deseq2.help.url" value="https://github.com/antonybholmes/matcalc/wiki/deseq2"/>
+</settings>

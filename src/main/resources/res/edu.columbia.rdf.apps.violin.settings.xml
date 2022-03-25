@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+  <setting name="violin.python.interpreter" value="python3" />
+  <setting name="violin.script.path" value="res/scripts/python/violin.py" />
+
+  <setting name="violin.plot.xlabel" value="Category" />
+  <setting name="violin.plot.ylabel" value="Value" />
+  
+  <setting name="violin.plot.mode" value="web" />
+  
+  <!--<setting name="violin.plot.pdf.url" value="http://localhost:8000/violin/api/v1/pdf" /> -->
+  <setting name="violin.plot.pdf.url" value="http://52.206.83.98/violin/api/v1/pdf" />
+  
+
+	<setting name="violin.help.type" value="web" />
+	<setting name="violin.help.url" value="https://github.com/lab-rdf/matcalc/wiki/Violin"/>
+</settings>

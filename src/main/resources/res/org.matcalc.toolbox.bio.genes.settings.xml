@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<!-- 
+	Application settings stored with the jar
+	This file must be named app_name.settings.xml where 
+	app_name is the application name in lower case with spaces removed. 
+	The first setting must be called app_name so that per app settings can
+	be merged.
+	-->
+	
+	<setting name="genes.split-genes" value="true" />
+	<setting name="genes.unique-genes" value="true" />
+	<setting name="genes.one-gene-per-line" value="true" />
+	<setting name="genes.show-mapped" value="true" />
+	<setting name="genes.show-unmapped" value="false" />
+	<setting name="genes.case-sensitive" value="false" />
+	
+	<setting name="genes.mapping.gene-symbol" value="true" />
+	<setting name="genes.mapping.entrez" value="false" />
+	<setting name="genes.mapping.ensembl-gene" value="false" />
+	<setting name="genes.mapping.ensembl-transcript" value="false" />
+	<setting name="genes.mapping.refseq" value="false" />
+	
+	<setting name="genes.help.type" value="web"/>
+	<setting name="genes.help.url" value="https://bitbucket.org/lab_rdf/matcalc/wiki/Genes"/>
+	
+	<setting name="org.matcalc.toolbox.bio.genes.files.mouse-human-conversion" value="res/modules/genes/ncbi_homologene_human_mouse_20160627.txt.gz" />
+	
+	<setting name="org.matcalc.toolbox.bio.genes.files.human.ensembl" value="res/modules/genes/human/ucsc_ensembl_hg19_20160627.txt.gz" />
+	<setting name="org.matcalc.toolbox.bio.genes.files.mouse.ensembl" value="res/modules/genes/mouse/ucsc_ensembl_mm10_20160627.txt.gz" />
+
+	<setting name="org.matcalc.toolbox.bio.genes.files.human.ncbi-gene-info" value="res/modules/genes/human/ncbi_gene_info_human_20160802.txt.gz" />
+	<setting name="org.matcalc.toolbox.bio.genes.files.human.ncbi-gene-history" value="res/modules/genes/human/ncbi_gene_history_human_20160802.txt.gz" />
+	<setting name="org.matcalc.toolbox.bio.genes.files.human.ncbi-gene-refseq" value="res/modules/genes/human/ncbi_gene_refseq_human_20160802.txt.gz" />
+	<setting name="org.matcalc.toolbox.bio.genes.files.human.hugo" value="res/modules/genes/human/hugo_symbol_entrez_20160608.txt.gz" />
+	
+	<setting name="org.matcalc.toolbox.bio.genes.files.mouse.ncbi-gene-info" value="res/modules/genes/mouse/ncbi_gene_info_mouse_20160802.txt.gz" />
+	<setting name="org.matcalc.toolbox.bio.genes.files.mouse.ncbi-gene-history" value="res/modules/genes/mouse/ncbi_gene_history_mouse_20160802.txt.gz" />
+	<setting name="org.matcalc.toolbox.bio.genes.files.mouse.ncbi-gene-refseq" value="res/modules/genes/mouse/ncbi_gene_refseq_mouse_20160802.txt.gz" />
+	
+</settings>

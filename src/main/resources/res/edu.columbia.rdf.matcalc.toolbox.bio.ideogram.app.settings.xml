@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<setting name="ideogram.gains.color" value="#ff0000"/>
+	<setting name="ideogram.losses.color" value="#2c5aa0"/>
+	<setting name="ideogram.separation" value="5"/>
+	<setting name="ideogram.plot-width" value="500"/>
+	<setting name="ideogram.help.type" value="web"/>
+	<setting name="ideogram.help.url" value="https://bitbucket.org/lab_rdf/matcalc/wiki/Ideogram" />
+</settings>

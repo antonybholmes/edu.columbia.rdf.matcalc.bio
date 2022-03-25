@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<setting name="microarray.help.type" value="web"/>
+	<setting name="microarray.help.url" value="https://bitbucket.org/lab_rdf/matcalc/wiki/Microarray" />
+	
+	<setting name="rna.help.type" value="web"/>
+	<setting name="rna.help.url" value="https://bitbucket.org/lab_rdf/matcalc/wiki/RNA_seq" />
+	
+	
+	<setting name="edbw.server" value="http://localhost:8080/edbw5"/>
+	<setting name="edbw.key" value=""/>
+	<setting name="edbw.user" value="-1"/>
+	<setting name="edbw.topt.epoch" value="0"/>
+	<setting name="edbw.topt.step-size" value="3600000"/>
+</settings>

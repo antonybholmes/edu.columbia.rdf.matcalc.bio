@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<setting name="newdendrogram.transform" value="1"/>
+	<setting name="newdendrogram.min-exp-mode" value="true"/>
+	<setting name="newdendrogram.min-expression" value="2"/>
+	<setting name="newdendrogram.min-stdev" value="1.5"/>
+	<setting name="newdendrogram.help.type" value="web"/>
+	<setting name="newdendrogram.help.url" value="https://bitbucket.org/lab_rdf/matcalc/wiki/NewDendrogram"/>
+</settings>

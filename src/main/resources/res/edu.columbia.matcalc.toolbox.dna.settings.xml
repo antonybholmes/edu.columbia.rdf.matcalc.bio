@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<!--  enable the DNA module -->
+	<setting name="org.matcalc.toolbox.bio.dna.web.enabled" value="true" />
+	<setting name="dna.remote-url" value="http://52.206.83.98/dna/api/v1/" />
+	
+</settings>

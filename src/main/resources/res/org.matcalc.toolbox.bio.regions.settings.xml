@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<!-- 
+	Application settings stored with the jar
+	This file must be named app_name.settings.xml where 
+	app_name is the application name in lower case with spaces removed. 
+	The first setting must be called app_name so that per app settings can
+	be merged.
+	-->
+	<setting name="regions.dna.remote-url" value="http://localhost:8080/dna/api/v1/hg19/" />
+	<setting name="regions.conservation.remote-url" value="http://localhost:8080/conservation/api/v1/hg19/" />
+	<setting name="regions.mouse.conservation.remote-url" value="http://localhost:8080/alignment/api/v1/hg19/mm10/" />
+	<setting name="regions.max-stitch-distance" value="12500" />
+	
+	<setting name="regions.overlap.annotation.first-columns" value="true"/>
+	
+	<setting name="regions.help.type" value="web" />
+	<setting name="regions.help.url" value="https://bitbucket.org/lab_rdf/matcalc/wiki/Regions"/>
+	
+	<setting name="org.matcalc.toolbox.bio.regions.annotation.help.url" value="https://bitbucket.org/lab_rdf/matcalc/wiki/Gene_Annotation"/>
+	<setting name="org.matcalc.toolbox.bio.regions.nway.help.url" value="https://bitbucket.org/lab_rdf/matcalc/wiki/Overlap"/>
+	<setting name="org.matcalc.toolbox.bio.regions.stitch.help.url" value="https://bitbucket.org/lab_rdf/matcalc/wiki/Stitch"/>
+</settings>

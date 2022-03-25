@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<!-- 
+	Application settings stored with the jar
+	This file must be named app_name.settings.xml where 
+	app_name is the application name in lower case with spaces removed. 
+	The first setting must be called app_name so that per app settings can
+	be merged.
+	-->
+	
+	<setting name="motifs.dna.remote-url" value="http://localhost:8080/dna/api/v2/hg19/"/>
+	<setting name="motifs.genome.remote-url" value="http://localhost:8080/genome/api/v1/hg19/"/>
+	<setting name="motifs.minimum-specificity" value="0.5"/>
+	<setting name="motifs.minimum-sensitivity" value="0.3"/>
+	<setting name="motifs.search.5p-extension" value="200"/>
+	<setting name="motifs.search.3p-extension" value="200"/>
+	<setting name="motifs.motif-threshold" value="0.5"/>
+	<setting name="motifs.database.directory" value="database"/>
+	<setting name="motifs.database.user-group" value="User"/>
+	<setting name="org.matcalc.toolbox.bio.seqlogo.motif-view" value="p"/>
+	<setting name="org.matcalc.toolbox.bio.seqlogo.rev-comp" value="false"/>
+	<setting name="motifs.help.type" value="web" />
+	<setting name="motifs.help.url" value="https://github.com/antonybholmes/matcalc/wiki/Motifs" />
+	
+	<setting name="motifs.plot.bar.background.color" value="#cccccc" />
+	<setting name="motifs.plot.bar.border.color" value="#c0c0c0" />
+	
+	<setting name="seqlogo.help.type" value="web" />
+	<setting name="seqlogo.help.url" value="https://github.com/antonybholmes/matcalc/wiki/SeqLogo" />
+	
+	<setting name="org.matcalc.toolbox.bio.motifs.search.help.url" value="https://github.com/lab-rdf/matcalc/wiki/Motifs#markdown-header-searching"/>
+	<setting name="org.matcalc.toolbox.bio.motifs.enrichment.help.url" value="https://github.com/lab-rdf/matcalc/wiki/Motifs#markdown-header-enrichment"/>
+	<setting name="org.matcalc.toolbox.bio.motifs.seqlogo.dna-bases.help.url" value="https://github.com/lab-rdf/matcalc/wiki/SeqLogo_DNA_Bases"/>
+</settings>
