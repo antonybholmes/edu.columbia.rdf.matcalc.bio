@@ -10,7 +10,6 @@ import org.jebtk.math.cluster.AverageLinkage;
 import org.jebtk.math.cluster.CompleteLinkage;
 import org.jebtk.math.cluster.DistanceMetric;
 import org.jebtk.math.cluster.EuclideanDistanceMetric;
-import org.jebtk.math.cluster.Linkage;
 import org.jebtk.math.cluster.ManhattanDistanceMetric;
 import org.jebtk.math.cluster.MaximumDistanceMetric;
 import org.jebtk.math.cluster.PearsonDistanceMetric;
@@ -31,6 +30,7 @@ import org.jebtk.modern.window.ModernWindow;
 import org.jebtk.modern.window.WindowWidgetFocusEvents;
 
 import edu.columbia.rdf.matcalc.figure.PlotConstants;
+import org.jebtk.math.cluster.ILinkage;
 
 public class NewDendrogramDialog extends ModernDialogHelpWindow {
   private static final long serialVersionUID = 1L;
@@ -198,9 +198,9 @@ public class NewDendrogramDialog extends ModernDialogHelpWindow {
     return distanceMetric;
   }
 
-  public Linkage getLinkage() {
+  public ILinkage getLinkage() {
 
-    Linkage linkage;
+    ILinkage linkage;
 
     switch (mLinkageCombo.getSelectedIndex()) {
     case 1:

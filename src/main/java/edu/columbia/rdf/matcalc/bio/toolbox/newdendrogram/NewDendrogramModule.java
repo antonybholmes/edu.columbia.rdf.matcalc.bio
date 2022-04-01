@@ -8,7 +8,6 @@ import org.jebtk.core.Indexed;
 import org.jebtk.core.IndexedInt;
 import org.jebtk.math.MathUtils;
 import org.jebtk.math.cluster.DistanceMetric;
-import org.jebtk.math.cluster.Linkage;
 import org.jebtk.math.matrix.DataFrame;
 import org.jebtk.math.matrix.utils.MatrixOperation;
 import org.jebtk.math.matrix.utils.MatrixOperations;
@@ -23,6 +22,7 @@ import edu.columbia.rdf.matcalc.MainMatCalcWindow;
 import edu.columbia.rdf.matcalc.toolbox.Module;
 import edu.columbia.rdf.matcalc.toolbox.plot.heatmap.HeatMapProps;
 import edu.columbia.rdf.matcalc.toolbox.plot.heatmap.cluster.legacy.LegacyClusterModule;
+import org.jebtk.math.cluster.ILinkage;
 
 public class NewDendrogramModule extends Module
     implements ModernClickListener {
@@ -73,7 +73,7 @@ public class NewDendrogramModule extends Module
 
     DistanceMetric distanceMetric = dialog.getDistanceMetric();
 
-    Linkage linkage = dialog.getLinkage();
+    ILinkage linkage = dialog.getLinkage();
 
     double minStd = dialog.getMinStd();
 
